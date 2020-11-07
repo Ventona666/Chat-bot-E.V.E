@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Main file to start the chat bot and connect to the data base.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
 import os
 import discord
 import psycopg2

@@ -1,12 +1,23 @@
-import discord
-import time
-import asyncio
-from cogs.affichage import couleur
-from cogs.affichage import embed
-from discord.ext import commands
-from discord.utils import get
+# -*- coding: utf-8 -*-
 
-class Chrono(commands.Cog):
+# -----------------------------------------------------------
+# Simple timer.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
+import time
+import discord
+import asyncio
+from discord.utils import get
+from discord.ext import commands
+from cogs.affichage import embed
+from cogs.affichage import couleur
+
+
+class Timer(commands.Cog):
     def __init__(self, eve):
         self.eve = eve
         self.couleur = couleur.Couleur()
@@ -25,4 +36,4 @@ class Chrono(commands.Cog):
         await ctx.author.send(content=None, embed=end.format)
 
 def setup(eve):
-    eve.add_cog(Chrono(eve))
+    eve.add_cog(Timer(eve))

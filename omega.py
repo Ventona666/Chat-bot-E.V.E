@@ -22,7 +22,7 @@ def main():
     # Fonction principale permettant le démarrage de E.V.E et la connexion à se base de donnée
 
     eve = commands.Bot(command_prefix = '!', description='Je suis une IA nommée E.V.E et développée par Ventona', intents=intents)
-    os.environ['DATABASE_URL'] = 'postgres://yskjiminweifna:7afbecaa63602208b3505a0064a4b9cbb7064050d30218ad2ff020fbe5972317@ec2-79-125-26-232.eu-west-1.compute.amazonaws.com:5432/d9dtp27gp6j7ba'
+    os.environ['DATABASE_URL'] = 'DATEBASE_URL'
     DATABASE_URL = os.environ['DATABASE_URL']
     eve.conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
@@ -33,12 +33,10 @@ def main():
             eve.load_extension(f'cogs.{filename[:-3]}')
 
 
-    eve.run('NjcyNTIxODEyMzE1NDcxODgz.XxP9Mg.sSU6RK9eq5HQllxidMJP9Qb93BE')
+    eve.run('TOKEN')
 
 if __name__ == '__main__':
     main()
-
-    eve.run('NzA5MzA2OTc3MjU1NDI0MDcx.XrkH3A.F8AKea_c6GQnmIM_sPGefr7bHpc')
 
 main()
 

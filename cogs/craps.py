@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Craps function design for discord server.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
 import random
 import discord
 import asyncio
@@ -5,7 +15,6 @@ from discord.ext import commands
 from cogs.affichage import embed
 from cogs.affichage import couleur
 
-#  "🇲", "🇳", "🇴", "🇵", "🇶", "🇷", "🇸", "🇹", "🇺", "🇻", "🇼", "🇽", "🇾", "🇿"
 
 class Craps(commands.Cog):
     def __init__(self, eve):

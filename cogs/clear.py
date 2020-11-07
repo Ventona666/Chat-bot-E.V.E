@@ -1,8 +1,19 @@
-from discord.ext import commands
-from discord.utils import get
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Clear function to delete message on discord.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
 import discord
-from cogs.affichage import couleur
+from discord.utils import get
+from discord.ext import commands
 from cogs.affichage import embed
+from cogs.affichage import couleur
+
 
 class Clear(commands.Cog):
     def __init__(self, eve):

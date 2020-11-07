@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Slot machine and roulette.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
+
 import random
 import discord
 from discord.ext import commands

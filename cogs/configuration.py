@@ -1,8 +1,19 @@
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Role, channel, category and overwrites creater for discord server.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
 import discord
 from discord.utils import find
-from cogs.affichage import couleur
-from cogs.affichage import embed
 from discord.ext import commands
+from cogs.affichage import embed
+from cogs.affichage import couleur
+
 
 class Configuration(commands.Cog):
     def __init__(self, eve):

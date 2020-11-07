@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # -----------------------------------------------------------
-# Logs analyzer and nuke protection from bots and administrators.
+# Content analyser and profanity protection.
 #
 # (C) 2020 Tony De Freitas, Toulouse, France
 # Released under GNU Affero General Public License v3.0 (AGPLv3)

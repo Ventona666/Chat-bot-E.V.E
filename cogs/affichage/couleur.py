@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------
+# Definition of color and avatar url of embed.
+#
+# (C) 2020 Tony De Freitas, Toulouse, France
+# Released under GNU Affero General Public License v3.0 (AGPLv3)
+# email defreitas.tony.pro@gmail.com
+# -----------------------------------------------------------
+
 class Couleur():
     """ Classe définissant certains paramètres utilisés par les embeds, à savoir :
         - L'adresse url du portrait de Eve, un en bleu et l'autre en rouge
